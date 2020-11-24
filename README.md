@@ -1,8 +1,8 @@
 # docker-tomcat
 A basic tutorial on running a web app on Tomcat using Docker
+Tomcat is a Java web server
 
-
-# Steps to run Tomcat Java web server on Docker
+# Steps to run Tomcat based sample website on Docker
 
 
 Install [Docker](https://docs.docker.com/install/).
@@ -15,7 +15,7 @@ sudo docker build -t mywebapp .
 sudo docker run -p 8888:8080 mywebapp
 ```
 
-Go to `http://localhost:8888` to browse website.
+Go to http://localhost:8888 to browse website.
 
 
 # Links
