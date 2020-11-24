@@ -1,13 +1,22 @@
-# docker-tomcat-tutorial
+# docker-tomcat
 A basic tutorial on running a web app on Tomcat using Docker
 
-# Steps
-* Install [Docker](https://docs.docker.com/install/).
-* Clone this repository - $git clone https://github.com/softwareyoga/docker-tomcat-tutorial.git
-* cd 'docker-tomcat-tutorial'
-* $docker build -t mywebapp .
-* $docker run -p 80:8080 mywebapp
-* http://localhost:80
+
+# Steps to run Tomcat Java web server on Docker
+
+
+Install [Docker](https://docs.docker.com/install/).
+
+
+```bash
+git clone https://github.com/ariel1985/docker-tomcat.git
+cd docker-tomcat
+sudo docker build -t mywebapp .
+sudo docker run -p 8888:8080 mywebapp
+```
+
+Go to `http://localhost:8888` to browse website.
+
 
 # Links
-[Sample Tomcat web app](https://tomcat.apache.org/tomcat-8.0-doc/appdev/sample/)
+[Sample Tomcat web app](https://tomcat.apache.org/tomcat-9.0-doc/appdev/sample/)
